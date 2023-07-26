@@ -1,0 +1,52 @@
+.menu_container {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.menu {
+    position: absolute;
+    background-color: var(--bg-color);
+    padding: 21px;
+    /* border: 1px solid var(--cinza-claro); */
+    box-shadow: 1px 2px 5px var(--cinza-claro);
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+
+.menu.active {
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    right: 15px;
+    gap: 5px
+}
+
+.menu.inactive {
+    opacity: 0;
+    visibility: collapse;
+    display: none;
+}
+
+.btn {
+    border: none;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
+    background-color: var(--bg-color);
+
+}
+
+.social_media ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.social_media_icon {
+    margin: 7px 0 7px 0;
+    font-size: 32px;
+}

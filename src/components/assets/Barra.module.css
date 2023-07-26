@@ -1,0 +1,23 @@
+.barra_container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    min-height: max(calc(100%- 80px), 80px);
+    /* Altura máxima de (100vh - 80px) e mínima de 80px */
+}
+
+.barra_description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra {
+    height: 5pt;
+    border-radius: 15px;
+    background-color: var(--cinza-claro);
+    width: 100%;
+}
+
+.barra_cheia {
+    background-color: var(--laranja);
+}

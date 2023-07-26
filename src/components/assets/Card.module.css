@@ -1,0 +1,18 @@
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: var(--cinza-claro);
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 2fr 3fr 1fr;
+}
+.card_description{
+    overflow: hidden;
+    padding: 10px;
+    text-align: justify;
+    font-size: 15pt;
+}
+.card_img{
+    width: 100%;
+    overflow: hidden;
+}

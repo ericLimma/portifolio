@@ -1,0 +1,16 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 100;
+    background-color: var(--bg-color);
+    padding: 15px;
+    height: 100px;
+}
+.brand{
+    width: 70%;
+}

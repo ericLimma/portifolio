@@ -1,0 +1,30 @@
+.main {
+    padding: 115px 20px 0 20px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 80px);
+}
+
+.avatar {
+    display: none;
+}
+
+.about_me h2 {
+    padding-left: 10px;
+    border-left: 7px solid var(--cinza-escuro);
+    margin-bottom: 10pt;
+}
+
+.tech_icon_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25pt;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.tech_icon_container img {
+    width: 65px;
+}

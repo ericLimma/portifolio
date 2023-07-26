@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  transition: .2s;
+}
+
+
+:root {
+
+  --azul-escuro: #003366;
+  --laranja: #ff9900;
+  --cinza-claro: #ccc7c7;
+  --cinza-escuro: #5C5D65;
+  --branco: #f6f6f6;
+  --preto:#121212;
+
+  /* light mode colors */
+  --bg-light-secondary: var(--cinza-escuro);
+  --bg-dark-mode: var(--preto);
+  --text-color: var(--cinza-escuro);
+  --text-color-inverse: var(--branco);
+
+  --bg-color: var(--branco);
+  --bg-color-inverse: var(--bg-dark-mode);
+  --bg-color-secondary: var(--cinza-claro);
+
+  /* redes logo */
+  --github-color: #171515;
+  --linkedin-color: #0e76a8;
+  --whatsapp-color: #25D366;
+
+  background-color: var(--bg-color);
+}
+
+.dark_mode:root {
+  --text-color-inverse: var(--cinza-escuro);
+  --text-color: var(--branco);
+  --bg-color: var(--bg-dark-mode);
+  --bg-color-inverse: var(--branco);
+  --text-color-inverse: var(--branco);
+  --github-color: #white;
+  background-color: var(--bg-color);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 375px;
+}
+
+p, ul, h2, h3, a, li, i {
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+  font-size: 32pt;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+h3 {
+  font-size: 18pt;
+}
+
+p, a, li {
+  font-size: 14pt;
+}
+
+small {
+  font-size: 12pt;
+}
