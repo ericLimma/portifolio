@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portifolio/static/css/main.9f22b20c.css",
+    "main.js": "/portifolio/static/js/main.6db32fb9.js",
+    "static/media/avatar_azul.png": "/portifolio/static/media/avatar_azul.2b23ec46917b6124b204.png",
+    "static/media/logo_low.png": "/portifolio/static/media/logo_low.7b3d40e051f6ae6a59fb.png",
+    "static/media/placehodler_car.jpg": "/portifolio/static/media/placehodler_car.03cb17ba756ca9cdf23e.jpg",
+    "static/media/python.png": "/portifolio/static/media/python.50ff7a6c27fe386e64fd.png",
+    "static/media/html.png": "/portifolio/static/media/html.57b36590a0e08eac7926.png",
+    "static/media/css.png": "/portifolio/static/media/css.6d475138f8b8aaf4bf9e.png",
+    "static/media/react.png": "/portifolio/static/media/react.1b3c1f185c2409639a57.png",
+    "index.html": "/portifolio/index.html",
+    "main.9f22b20c.css.map": "/portifolio/static/css/main.9f22b20c.css.map",
+    "main.6db32fb9.js.map": "/portifolio/static/js/main.6db32fb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f22b20c.css",
+    "static/js/main.6db32fb9.js"
+  ]
+}
