@@ -1,0 +1,40 @@
+.footer_section {
+    margin-top: 3em;
+    padding: 3em;
+    text-align: center;
+}
+
+.logo {
+    width: 75px;
+}
+
+.social_media{
+    padding-top:2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+.social_media ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: space-around;
+}
+
+.social_media_icon {
+    margin: 7px 0 7px 0;
+    font-size: 32px;
+}
+
+.whatsapp:hover {
+    color: var(--whatsapp-color);
+}
+
+.git:hover {
+    color: var(--github-color);
+}
+
+.linkedin:hover {
+    color: var(--linkedin-color);
+}

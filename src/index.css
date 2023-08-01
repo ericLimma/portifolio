@@ -15,7 +15,7 @@
   --cinza-claro: #ccc7c7;
   --cinza-escuro: #5C5D65;
   --branco: #f6f6f6;
-  --preto:#121212;
+  --preto: #121212;
 
   /* light mode colors */
   --bg-light-secondary: var(--cinza-escuro);
@@ -33,6 +33,7 @@
   --whatsapp-color: #25D366;
 
   background-color: var(--bg-color);
+
 }
 
 .dark_mode:root {

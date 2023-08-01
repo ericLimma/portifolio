@@ -2,17 +2,23 @@
     width: 300px;
     height: 400px;
     background-color: var(--cinza-claro);
-    border-radius: 15px;
-    display: grid;
-    grid-template-rows: 2fr 3fr 1fr;
+    border-radius: 0 15px;
+    display: flex;
+    flex-direction: column;
 }
 .card_description{
-    overflow: hidden;
     padding: 10px;
     text-align: justify;
     font-size: 15pt;
 }
 .card_img{
-    width: 100%;
+    border-radius: 0  15px 0 15px;
     overflow: hidden;
+    width: 100%;
+}
+.link{
+    background-color: var(--laranja);
+    padding: 3pt 16pt;
+    text-align: right;
+    border-radius: 0 15px;
 }

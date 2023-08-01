@@ -14,3 +14,8 @@
 .brand{
     width: 70%;
 }
+@media screen and (min-width: 980px) {
+    .header_container{
+        padding: 15px 10%;
+    }
+}

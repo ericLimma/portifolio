@@ -15,8 +15,11 @@ export function Menu() {
                     <i className="fa-solid fa-bars" />
                 </button>
                 <menu className={styles.dropdown}>
-                    <nav ref={dropDownRef} className={`${styles.menu} ${isActive ? styles.active : styles.inactive}`}>
 
+                    <nav ref={dropDownRef} className={`${styles.menu} ${isActive ? styles.active : styles.inactive}`}>
+                        <li>
+                            <ThemeToggle />
+                        </li>
                         <li>
                             <a className={styles.nav_link} href="#">Formação</a>
                         </li>
@@ -40,7 +43,7 @@ export function Menu() {
                                 </li>
                             </ul>
                         </div>
-                        <ThemeToggle />
+
 
                     </nav>
                 </menu>

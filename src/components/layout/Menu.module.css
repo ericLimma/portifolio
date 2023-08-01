@@ -1,15 +1,12 @@
 .menu_container {
     display: flex;
     flex-direction: column;
-
-
 }
 
 .menu {
     position: absolute;
     background-color: var(--bg-color);
     padding: 21px;
-    /* border: 1px solid var(--cinza-claro); */
     box-shadow: 1px 2px 5px var(--cinza-claro);
     margin-top: 15px;
     border-radius: 5px;
@@ -31,6 +28,36 @@
     display: none;
 }
 
+@media screen and (min-width: 980px) {
+
+    .menu.inactive {
+        opacity: 1;
+        position: relative;
+        visibility: visible;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu {
+        position: relative;
+        background: none;
+        padding: 21px;
+        box-shadow: none;
+        margin-top: 0;
+    }
+
+    .btn {
+        display: none;
+    }
+    .menu_container {
+        justify-content: space-between;
+        width: 90%;
+    }
+    .social_media ul {
+        gap:45px;
+    }
+}
+
 .btn {
     border: none;
     width: 35px;
@@ -49,4 +76,16 @@
 .social_media_icon {
     margin: 7px 0 7px 0;
     font-size: 32px;
+}
+
+.whatsapp:hover {
+    color: var(--whatsapp-color);
+}
+
+.git:hover {
+    color: var(--github-color);
+}
+
+.linkedin:hover {
+    color: var(--linkedin-color);
 }
