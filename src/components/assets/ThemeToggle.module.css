@@ -1,6 +1,5 @@
 .checkbox {
     display: none;
-    position: absolute;
 }
 .theme_toggle_container{
     border: 2px solid var(--text-color-primary);
@@ -29,8 +28,10 @@ i{
     background-color: var(--text-color-primary);
     border-radius: 50%;
     width: 21px;
-    height: 21px;
+    height: 96%;
     position: absolute;
+    align-self: center;
+    justify-self: center;
 
     transform: translateX(0px);
     transition: transform .2s linear;

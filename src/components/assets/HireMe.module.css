@@ -1,0 +1,9 @@
+.hire_me {
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+    border: 1px solid var(--roxo);
+    padding: .8em 1em;
+    text-align: center;
+    border-radius: 0 10px 0 10px;
+}

@@ -8,6 +8,7 @@ import html from '../../img/html.png'
 import bootstrap from '../../img/bootstrap.png'
 import react from '../../img/react.png'
 import python from '../../img/python.png'
+import { HireMe } from '../assets';
 
 export function Main() {
     return (
@@ -25,8 +26,9 @@ export function Main() {
                     <img src={react} alt="react javaScript logo" />
                     <img src={python} alt="python logo" />
                 </div>
+                <HireMe/>
             </div>
-            <img className={styles.avatar} src={avatar} alt="ilustração de um homem em aquarela, na tematica cyberpunk" />
+            <img className={styles.avatar} src={avatar} alt="gif de um homem em aquarela, na tematica cyberpunk" />
         </main>
     )
 }

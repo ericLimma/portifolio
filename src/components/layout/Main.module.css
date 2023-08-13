@@ -12,12 +12,12 @@
 }
 
 
-
 .about_me h2 {
     padding-left: 10px;
     border-left: 7px solid var(--cinza-escuro);
     margin-bottom: 10pt;
 }
+
 
 .tech_icon_container {
     display: flex;
@@ -30,6 +30,7 @@
 .tech_icon_container img {
     width: 65px;
 }
+
 @media screen and (min-width: 980px) {
     .avatar {
         display: block;
