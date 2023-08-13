@@ -1,7 +1,7 @@
 import styles from './Main.module.css';
 
 //imagens
-import avatar from '../../img/avatar_azul.png'
+import avatar from '../../img/avatar.gif'
 import js from '../../img/js.png'
 import css from '../../img/css.png'
 import html from '../../img/html.png'

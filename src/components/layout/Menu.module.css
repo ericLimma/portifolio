@@ -21,7 +21,9 @@
     right: 15px;
     gap: 5px
 }
-
+.nav_link{
+    color:var(--text-color-primary);
+}
 .menu.inactive {
     opacity: 0;
     visibility: collapse;

@@ -8,6 +8,7 @@
     left: 0;
     z-index: 100;
     background-color: var(--bg-color);
+    opacity: 80%;
     padding: 15px;
     height: 100px;
 }

@@ -11,7 +11,7 @@
 :root {
 
   --azul-escuro: #003366;
-  --laranja: #ff9900;
+  --roxo: #790bad;
   --cinza-claro: #ccc7c7;
   --cinza-escuro: #5C5D65;
   --branco: #f6f6f6;
@@ -20,7 +20,9 @@
   /* light mode colors */
   --bg-light-secondary: var(--cinza-escuro);
   --bg-dark-mode: var(--preto);
+
   --text-color: var(--cinza-escuro);
+  --text-color-primary: var(--roxo);
   --text-color-inverse: var(--branco);
 
   --bg-color: var(--branco);
@@ -33,6 +35,8 @@
   --whatsapp-color: #25D366;
 
   background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
 
 }
 
@@ -41,8 +45,10 @@
   --text-color: var(--branco);
   --bg-color: var(--bg-dark-mode);
   --bg-color-inverse: var(--branco);
+  --bg-color-secondary: var(--preto);
   --text-color-inverse: var(--branco);
-  --github-color: #white;
+  --text-color-primary: var(--branco);
+  --github-color: white;
   background-color: var(--bg-color);
 }
 
@@ -55,10 +61,8 @@ body {
   min-width: 375px;
 }
 
-p, ul, h2, h3, a, li, i {
-  color: var(--text-color);
-  font-family: 'Poppins', sans-serif;
-
+h1, h2, h3{
+  color: var(--text-color-primary);
 }
 
 h1 {
