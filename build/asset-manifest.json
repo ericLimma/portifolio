@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "./static/css/main.0a19a4f5.css",
-    "main.js": "./static/js/main.8135a017.js",
+    "main.css": "./static/css/main.cc6d430b.css",
+    "main.js": "./static/js/main.a00b22a8.js",
     "static/media/avatar.gif": "./static/media/avatar.c974d18f22ecd05603ba.gif",
+    "static/media/shopfree_header.jpg": "./static/media/shopfree_header.bd8f79bc259d4f9a50f7.jpg",
     "static/media/indecor_header.jpg": "./static/media/indecor_header.7b2972686d4339468c91.jpg",
     "static/media/logo_low.png": "./static/media/logo_low.cf8dac10ee0129ca529f.png",
     "static/media/python.png": "./static/media/python.50ff7a6c27fe386e64fd.png",
@@ -10,11 +11,11 @@
     "static/media/css.png": "./static/media/css.6d475138f8b8aaf4bf9e.png",
     "static/media/react.png": "./static/media/react.1b3c1f185c2409639a57.png",
     "index.html": "./index.html",
-    "main.0a19a4f5.css.map": "./static/css/main.0a19a4f5.css.map",
-    "main.8135a017.js.map": "./static/js/main.8135a017.js.map"
+    "main.cc6d430b.css.map": "./static/css/main.cc6d430b.css.map",
+    "main.a00b22a8.js.map": "./static/js/main.a00b22a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a19a4f5.css",
-    "static/js/main.8135a017.js"
+    "static/css/main.cc6d430b.css",
+    "static/js/main.a00b22a8.js"
   ]
 }
