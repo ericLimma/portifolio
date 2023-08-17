@@ -17,6 +17,11 @@
     text-align: center;
 }
 
+.see_more {
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 980px) {
     .projetos_container {
         width: 90%;
