@@ -6,7 +6,7 @@ export function Card({img, alt, description, link}) {
             <div className={styles.card}>
                 <img className={styles.card_img} src={img} alt={alt} />
                 <p className={styles.card_description}>{description}</p>
-                <div className={styles.link}><a href={link}>visitar</a></div>
+                <div className={styles.link}><a target='_blank' href={link}>visitar</a></div>
             </div>
         </>
     )
