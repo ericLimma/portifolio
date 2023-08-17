@@ -39,8 +39,14 @@ export function Menu() {
                                     <a target="_blank" href="https://www.linkedin.com/in/erick-r-a-lima-6a0321253"><i className={`${styles.linkedin} ${styles.social_media_icon}  fa-brands fa-linkedin`}></i></a>
                                 </li>
                                 <li>
-                                    <a target="_blank" href="https://wa.me/?text=Olá!%20Estou%20buscando%20um%20desenvolvedor%20front-end%20e%20gostaria%20de%20conversar%20sobre%20suas%20experiências%20e%20trabalhos.%20Podemos%20falar?"><i className={`${styles.whatsapp} ${styles.social_media_icon} fa-brands fa-whatsapp`}></i></a>
+                                    <a target="_blank" href="https://web.whatsapp.com/send?phone=5519996624496
+                                    "><i className={`${styles.web_whatsapp} ${styles.social_media_icon} fa-brands fa-whatsapp`}></i></a>
                                 </li>
+                                <li>
+                                    <a target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=5519996624496
+                                    "><i className={`${styles.whatsapp} ${styles.social_media_icon} fa-brands fa-whatsapp`}></i></a>
+                                </li>
+
                             </ul>
                         </div>
 

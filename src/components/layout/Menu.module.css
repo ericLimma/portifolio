@@ -6,6 +6,7 @@
 .menu {
     position: absolute;
     background-color: var(--bg-color);
+    opacity: 100%;
     padding: 21px;
     box-shadow: 1px 2px 5px var(--cinza-claro);
     margin-top: 15px;
@@ -21,46 +22,19 @@
     right: 15px;
     gap: 5px;
 }
-.nav_link{
-    color:var(--text-color-primary);
+
+.nav_link {
+    color: var(--text-color-primary);
 }
+
 .menu.inactive {
     opacity: 0;
     visibility: collapse;
     display: none;
     align-items: center
-
 }
 
-@media screen and (min-width: 980px) {
 
-    .menu.inactive {
-        opacity: 1;
-        position: relative;
-        visibility: visible;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .menu {
-        position: relative;
-        background: none;
-        padding: 21px;
-        box-shadow: none;
-        margin-top: 0;
-    }
-
-    .btn {
-        display: none;
-    }
-    .menu_container {
-        justify-content: space-between;
-        width: 90%;
-    }
-    .social_media ul {
-        gap:45px;
-    }
-}
 
 .btn {
     border: none;
@@ -92,4 +66,47 @@
 
 .linkedin:hover {
     color: var(--linkedin-color);
+}
+
+.web_whatsapp {
+    display: none;
+}
+
+@media screen and (min-width: 980px) {
+
+    .menu.inactive {
+        opacity: 1;
+        position: relative;
+        visibility: visible;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu {
+        position: relative;
+        background: none;
+        padding: 21px;
+        box-shadow: none;
+        margin-top: 0;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .menu_container {
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .social_media ul {
+        gap: 45px;
+    }
+
+    .web_whatsapp {
+        display: block;
+    }
+    .whatsapp {
+        display: none;
+    }
 }
